@@ -1,4 +1,4 @@
-module.exports = {
-  db: 'mongodb://username:password@url:port/db',
-  db_dev: 'mongodb://url:port/db',
+export default {
+  db: "mongodb://username:password@url:port/db",
+  db_dev: "mongodb://url:port/db",
 };
